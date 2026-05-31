@@ -1,10 +1,10 @@
 # SHealth Tweak
 
-三星健康 Xposed 模块。安装后在 LSPosed 勾选 `com.sec.android.app.shealth` 即可。
+三星健康 Xposed 模块。安装后在 LSPosed 勾选 `com.sec.android.app.shealth` 即可，无需手动创建文件夹或输入 developer key。
 
-Xposed module for Samsung Health. Enable in LSPosed and check `com.sec.android.app.shealth`.
+Xposed module for Samsung Health. Enable in LSPosed and check `com.sec.android.app.shealth`. No need to create folders or provide a developer key.
 
-- 强制开启 FeatureList 开发者模式 ，绕过开发者签名/ Force enable FeatureList developer mode, bypass developer validation.
+新版本三星健康隐藏 FeatureList 需要 developer key 验证，本模块跳过全部验证直接开启。 / New Samsung Health versions hide FeatureList behind developer key validation. This module bypasses all validation.
 
 ```bash
 ./gradlew assembleDebug

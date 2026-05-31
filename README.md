@@ -6,6 +6,8 @@ Xposed module for Samsung Health. Enable in LSPosed and check `com.sec.android.a
 
 新版本三星健康隐藏 FeatureList 需要 developer key 验证，本模块跳过全部验证直接开启。 / New Samsung Health versions hide FeatureList behind developer key validation. This module bypasses all validation.
 
+**使用方法 / Usage**：Settings → About Samsung Health → SetFeatures
+
 ```bash
 ./gradlew assembleDebug
 ```
